@@ -20,7 +20,6 @@
 #include <functional>
 #include <iostream>
 #include <sstream>
-#include <switch.h>
 
 #include "Ini.hpp"
 #include "IniHelper.hpp"
@@ -185,7 +184,6 @@ namespace simpleIniParser {
         file.flush();
         file.close();
 
-        fsdevCommitDevice("sdmc");
 
         return true;
     }
